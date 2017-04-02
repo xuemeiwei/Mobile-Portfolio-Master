@@ -20,7 +20,7 @@ There are two directories namely src and dist. The code in src is the original o
 2. Make local server accessible remotely.
 ``` bash
   $> cd /path/to/your-project-folder
-  $> \.ngrok http 8080
+  $> ./ngrok http 8080
 ```
 3. Go to website: [Google PageSpeed Insights](https://developers.google.com/speed/pagespeed/insights/) and input the public URL ngrok gives you.
 
