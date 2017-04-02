@@ -31,10 +31,10 @@ This project is to optimize the online portfolio for speed by using techniques t
 4) Optimize image files.
 
 ### 2. For the optimization for the first task, there are following optimizations:
-1). Created a local vrailable to save randomPizzaContainer outside the loop, Moved the newwidth and dx variables out of the loop, Saved the array length
-2). Moved the pizzasDiv variable outside the loop
-3). Created local variables to save document.bodyscrollTop / 1250 outside the loop
-4). Changed the generating pizzas part by changing document.getElementById("movingPizzas1");
+1) Created a local vrailable to save randomPizzaContainer outside the loop, Moved the newwidth and dx variables out of the loop, Saved the array length
+2) Moved the pizzasDiv variable outside the loop
+3) Created local variables to save document.bodyscrollTop / 1250 outside the loop
+4) Changed the generating pizzas part by changing document.getElementById("movingPizzas1");
 
 
 
