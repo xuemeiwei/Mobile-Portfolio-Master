@@ -21,22 +21,19 @@ This project is to optimize the online portfolio for speed by using techniques t
   $> cd /path/to/your-project-folder
   $> \.ngrok http 8080
 ```
-3. Go to website [Google PageSpeed Insights](https://developers.google.com/speed/pagespeed/insights/) and input the public URL ngrok gives you.
+3. Go to website: [Google PageSpeed Insights](https://developers.google.com/speed/pagespeed/insights/) and input the public URL ngrok gives you.
 
 ## Optimizations
-1. For the optimization for the first task, there are following optimizations:
+### 1. For the optimization for the first task, there are following optimizations:
 1) Remove the link to Open Sans fonts;
 2) Add media = "print" for print.css;
 3) Move js to the end of index.html;
-4) Optimiza image files.
+4) Optimize image files.
 
-2. For the optimization for the first task, there are following optimizations:
+### 2. For the optimization for the first task, there are following optimizations:
 1). Created a local vrailable to save randomPizzaContainer outside the loop, Moved the newwidth and dx variables out of the loop, Saved the array length
-
 2). Moved the pizzasDiv variable outside the loop
-
 3). Created local variables to save document.bodyscrollTop / 1250 outside the loop
-
 4). Changed the generating pizzas part by changing document.getElementById("movingPizzas1");
 
 
