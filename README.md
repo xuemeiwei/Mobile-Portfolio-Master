@@ -1,6 +1,7 @@
 # Website Performance Optimization Portfolio Project
 
 This project is to optimize the online portfolio for speed by using techniques taught in this course.
+There are two directories namely src and dist. The code in src is the original one and the code in dist is optimized one.
 
 ## Tasks
 ### 1. Optimize PageSpeed Insights score for index.html
@@ -8,7 +9,7 @@ This project is to optimize the online portfolio for speed by using techniques t
 
 ## How to run the project
 1. Download or clone the repository
-2. Open index.html by using Chrome
+2. Open src/index.html or dist/index.html by using Chrome
 
 ## How to get the PageSpeed Insights score
 1. Run a local server
